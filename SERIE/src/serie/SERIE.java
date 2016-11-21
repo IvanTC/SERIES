@@ -22,8 +22,8 @@ public class SERIE {
         int limite;
         limite = Integer.parseInt(JOptionPane.showInputDialog("Ingresa un limite: "));
         MODELO_SERIE o1 = new MODELO_SERIE(limite);
-        
         JOptionPane.showMessageDialog(null, o1.generar_serie());
+        JOptionPane.showMessageDialog(null, "ESTE CAMBIO LO REALICE DESDE GITHUB");
     }
     
 }
