@@ -24,6 +24,7 @@ public class SERIE {
         MODELO_SERIE o1 = new MODELO_SERIE(limite);
         JOptionPane.showMessageDialog(null, o1.generar_serie());
         JOptionPane.showMessageDialog(null, "ESTE CAMBIO LO REALICE DESDE GITHUB");
+        JOptionPane.showMessageDialog(null, "ESTE CAMBIO LO REALICE DESPUES DE CLONAR");
     }
     
 }
